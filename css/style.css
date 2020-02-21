@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+}
+header{
+  height: 30px;
+  background-color: black;
+  margin-top: 55px;
+  color: white;
+}
+header img{
+  width: 6%;
+  color: white;
+  float: left;
+}
+header a {
+  width: 8%;
+  color: white;
+  float: left;
+}
+a{
+ text-decoration: none;
+}
+header nav ul{
+  list-style: none;
+}
+.burger{
+  display: none;
+}
+header nav ul a{
+  text-decoration: none;
+}
+header li{
+  width: 6%;
+  color: white;
+  float: left;
+}
+header form{
+  width: 10%;
+  float: left;
+  color: white;
+}
+input{
+  width: 85%;
+}
+header + section{
+  height: 500px;
+  background: lightgray;
+}
+.topContainLeft{
+  height: 400px;
+  width: 41%;
+  float: left;
+  margin-top: 50px;
+  clear: right;
+}
+.topContainleft section{
+  width: 41%;
+  height: 430px;
+  float: left;
+  background-image: url(pointingTrump.jpeg);
+  color: white;
+  background-size: 100% 100%;
+  padding-top: 280px;
+}
+
+.topContainRight{
+  height: 430px;
+  width: 45%;
+  margin: 1.25% 1.25% 1.25% 2.5%;
+  float: left;
+  margin-top: -30px;
+  clear: right;
+  margin-top: 18px;
+}
+.topContainRight section{
+  width: 48%;
+  height: 190px;
+  float: left;
+  margin: 5px;
+}
+.one{
+  background-image: url(TrumpPutin3.jpg);
+  background-size: 100% 100%;
+  color: white;
+}
+.one h3{
+  padding-top: 80px;
+  padding-left: 10px;
+}
+.one span{
+  padding-left: 10px;
+}
+.two{
+  background-image: url(tillerson.jpeg);
+  background-size: 100% 100%;
+  color: white;
+}
+.two h3{
+  padding-top: 80px;
+  padding-left: 10px;
+}
+.two span{
+  padding-left: 10px;
+}
+.three{
+  background-image: url(church.jpg);
+  background-size: 100% 100%;
+  color: white;
+}
+.three h3{
+  padding-top: 80px;
+  padding-left: 10px;
+}
+.three span{
+  padding-left: 10px;
+}
+.fourth{
+  background-image: url(sharespace.jpeg);
+  background-size: 100% 100%;
+  color: white;
+}
+.fourth h3{
+  padding-top: 80px;
+  padding-left: 10px;
+
+}
+.fourth span{
+  padding-left: 10px;
+}
+.bottomContain img{
+  width: 25%;
+  height: 220px;
+  margin: 50px;
+  margin-bottom: 0;
+}
+.bottomContain{
+  border-bottom: 2px solid black;
+}
+.bottomContain h2{
+  padding-left: 5px;
+  border-left: 3px solid red;
+}
+.topSliver{
+  clear: both;
+  height: 30px;
+  weight:100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.topSliver span:last-of-type{
+  padding-left: 75%;
+}
+
+@media only screen and (max-width:700px){
+   .burger{
+    display: block;
+    color: white;
+  }
+  li{
+    display: none;
+  }
+  a{
+    display: none;
+  }
+   .topSliver{
+     display: none;
+   }
+   .fas.fa-search{
+     display: none;
+   }
+   .topContainleft section{
+     width: 100%;
+  }
+  .topContainRight{
+    width: 100%;
+    padding-right: 38px;
+  }
+   .topContainRight section{
+    width: 100%
+  }
+  .two{
+    width: 100%;
+  }
+  .three{
+    width: 100%;
+  }
+  .fourth{
+    width: 100%;
+  }
+  .bottomContain{
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-top: 680px;
+  }
+  /* .bottomContain h2{
+    margin-top: 780px;
+    display: none;
+  } */
+  .bottomContain img{
+  display: none;
+  }
+  .bottomContain{
+    display: none;
+  }
+}
+@media (min-width:701px) and (max-width:1125px) {
+  .fas.fa-search{
+    display: none;
+  }
+header nav ul li{
+    width: 10%;
+    padding-left: 40px;
+    float: left;
+    list-style: none;
+  }
+  .topSliver{
+    display: none;
+  }
+  .topContainleft section{
+    width: 100%;
+ }
+ .topContainRight{
+   width: 100%;
+   padding-right: 38px;
+ }
+  /* .topContainRight section{
+   width: 50%;
+   float: left; */
+
+ /* .two{
+   width: 100%;
+ }
+ .three{
+   width: 100%;
+ }
+ .fourth{
+   width: 100%;
+ } */
+.one{
+  width: 48%;
+}
+.two{
+  width: 48%;
+}
+.three{
+  width: 48%;
+}
+.fourth{
+   width: 48%;
+ }
+ .bottomContain{
+   clear: both;
+   float: none;
+   width: 100%;
+
+   /* margin-top: 680px; */
+ }
+ .bottomContain img{
+   width: 100%;
+   height: auto;
+   margin: 0;
+ }
+ /* .bottomContain h2{
+   margin-top: 780px;
+   display: none;
+ }
+ .bottomContain img{
+ display: none;
+ height: auto;
+
+ }
+ .bottomContain{
+   display: none;
+ } */
+}
+@media (min-width:1126px) and (max-width:1587px){
+  .fas.fa-search{
+    display: none;
+  }
+  .topSliver{
+    display: none;
+  }
+  .bottomContain img{
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+}
